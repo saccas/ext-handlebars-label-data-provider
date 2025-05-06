@@ -10,9 +10,9 @@
     },
     "require": {
         "php": ">= 8.0 < 8.4",
-        "visol/typo3-handlebars": "^4",
-        "visol/translationapi": "^4"
-    },
+        "visol/typo3-handlebars": "^4 || dev-feature/updateV13",
+        "visol/translationapi": "^4 || dev-feature/updateV13"
+	},
     "extra": {
         "typo3/cms": {
           "extension-key": "handlebars_labeldataprovider"
